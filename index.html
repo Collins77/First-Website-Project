@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation Bar and Carousel</title>
+    <link rel="icon" href="images/logo3.jpeg">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="bootstrap/js/jquery-3.4.1.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+<div class="header">
+    <img src="images/logo3.jpeg" alt="logo" width="300" height="150">
+    <h1 class="text-white"><span class="text-info">INCEPTOR</span> ICT Centre</h1>
+</div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.html">Inceptor ICT Centre</a>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Products and Services
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="accessories.html">Computers and Computer Accessories</a>
+                    <a class="dropdown-item" href="maintenance.html">Computer Maintenance and Repairs</a>
+                    <a class="dropdown-item" href="networking.html">Computer Networking</a>
+                    <a class="dropdown-item" href="CCTV.html">CCTV Installation</a>
+                    <!--<a class="dropdown-item" href="#">VSAT Installation</a>-->
+                    <a class="dropdown-item" href="softdev.html">Software and Mobile App Development</a>
+                    <!--<a class="dropdown-item" href="#">Graphic Design</a>-->
+                    <a class="dropdown-item" href="web.html">Web Design</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="FAQ.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="careers.html">Careers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/logo3.jpeg" alt="Tech Picture One" width="100%" height="500">
+            <div class="carousel-caption">
+                <h2>Inceptor ICT Centre</h2>
+                <p>Think . Innovate. Build</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/dev2.jpg" alt="Tech Picture Two" width="100%" height="500">
+            <div class="carousel-caption">
+                <h2 class="slideTwo">Software and Mobile App Development</h2>
+                <p class="desctwo">We develop your technological ambitions</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/web1.jpg" alt="Tech Picture Three" width="100%" height="500">
+            <div class="carousel-caption">
+                <h2 class="text-danger">Web Design</h2>
+                <p class="text-danger">We design worldclass web applications for our clients</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/repair4.jpg" alt="Tech Picture Four" width="100%" height="500">
+            <div class="carousel-caption">
+                <h2 class="text-primary">Repair and Maintenance</h2>
+                <p class="text-info">We repair and maintain computers and other appliances</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/netw1.jpg" alt="Tech Picture Five" width="100%" height="500">
+            <div class="carousel-caption">
+                <h2>Computer Networking</h2>
+                <p>We build organised and efficient computer networks</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+</div>
+<div class="container">
+    <h3 class="text-white">Home</h3>
+    <hr>
+    <div class="row">
+        <div class="col-sm-3">
+            <p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dignissimos ducimus iusto quibusdam
+                suscipit! Aperiam corporis dicta dignissimos ducimus maxime minima, nobis odio, perspiciatis qui
+                quibusdam similique, totam veniam voluptas!</p>
+        </div>
+        <div class="col-sm-3">
+            <p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dignissimos ducimus iusto quibusdam
+                suscipit! Aperiam corporis dicta dignissimos ducimus maxime minima, nobis odio, perspiciatis qui
+                quibusdam similique, totam veniam voluptas!</p>
+        </div>
+        <div class="col-sm-3">
+            <p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dignissimos ducimus iusto quibusdam
+                suscipit! Aperiam corporis dicta dignissimos ducimus maxime minima, nobis odio, perspiciatis qui
+                quibusdam similique, totam veniam voluptas!</p>
+        </div>
+        <div class="col-sm-3">
+            <p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dignissimos ducimus iusto quibusdam
+                suscipit! Aperiam corporis dicta dignissimos ducimus maxime minima, nobis odio, perspiciatis qui
+                quibusdam similique, totam veniam voluptas!</p>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <h5 class="text-center text-white">Copyright &copy; 2020. Inceptor ICT center.</h5>
+</div>
+</body>
+</html>
